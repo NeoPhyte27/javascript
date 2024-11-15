@@ -1,0 +1,29 @@
+di dalam javascript tidak ada yang namanya integer(bilangan bulat), yang ada hanya floating point(bilangan pecahan), dan ukuran angka yang bisa di tampung oleh javascript adalah 64-bit. kita bisa menyimpan angka sebesar 2^64 atau sama aja dengan 8x10^18, tetapi di angka ini tidak bisa dipakai semua, karena di dalam 64-bit tadi ada penanda yang harus menampung tertentu
+
+angka yang bisa di tampung
+- Angka tanpa desimal
+    1. 10, 1500, 123456(tingkat pecahan)
+    2. akurat sampai 15 digit
+    3. jika lebih dari 15 digit akan di buat bilangan bulat
+
+- Angka dengan desimal
+    1. 3.14, 0.5, 100.00
+    2. maksimal di simpan 17 digit di belakang koma(,)
+
+- Ekponen(menyimpan bilangan besar)
+    1. 123e5 // 12300000(e adalah 0)
+    2. 123e-5 // 0.00123
+
+- Bilangan Negatif
+
+jangan pernah mengawali angka dengan 0
+dengan menuliskan angka 0 di awal, akan di anggap bilangan oktal
+sama seperti mengawali angka dengan 0x
+maka akan di anggap bilangan hexadesimal ( 0xFF/255 )
+
+didalam javascript ada namanya angka spesial
+    1. Infinity
+    2. -Infinity
+    3. NaN(node a number)
+
+hati-hati jika membagi sebuah bilangan dengan string tetapi di dalam string terdapat angka, maka javascript angka membaca sebagai angka

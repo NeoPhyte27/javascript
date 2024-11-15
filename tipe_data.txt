@@ -1,0 +1,19 @@
+tipe data
+    - number/angka
+    - string
+    - boolean
+    - object
+    - function
+    - undefined
+
+- number
+    tinggal tekan aja angka nya tanpa apapun
+    contoh:
+        1. 10
+        2. -1500
+        3. 3.14
+
+- string
+tulisan nya di dalam kutip
+    1. ''(kutip satu)
+    2. ""(kutip dua)
