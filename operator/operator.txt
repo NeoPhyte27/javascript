@@ -1,0 +1,22 @@
+di dalam operator ada
+    - aritmatika=====
+    - penugasan          ==
+    - perbandingan          ====> binary
+    - logika                  ==
+    - string========
+    - kondisional ===> ternary
+    - typeof ===> unary
+
+untuk operator ini dapat di bagi peran nya
+operator binary yang membutuhkan 2 operand
+        operand1 operator operand2
+
+operator unary cuma membutuhkan 1 operand
+        operator operand atau operand operator
+
+operator ternary yang membutuhkan 3 operand
+
+
+operator aritmatika(operator matematika)
+        1. + , - , * , / , %(modulo/modulus/sisa bagi)
+        2. sebagai contoh liat di script.js
