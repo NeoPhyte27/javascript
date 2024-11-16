@@ -2,7 +2,6 @@ var tanya = true;
 while (tanya){
   // menangkap pilihan player
   var p = prompt('pilih : gajah, semut, orang');
-  
   // menangkap pilihan computer
   // membangkitkan bilangan random
   var comp = Math.random();
@@ -30,3 +29,5 @@ while (tanya){
   alert('Kamu Memilih : ' + p + '\nKomputer Memilih : ' + comp + '\nMaka Hasilnya : Kamu ' + hasil);
   tanya = confirm('lagikah');
 }
+
+alert('terima kasih');
